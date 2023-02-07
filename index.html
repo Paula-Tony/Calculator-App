@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <div class="head">
+          <h4 class="title">calc</h4>
+          <div class="theme-control">
+            <span>theme</span>
+            <div class="toggle-checkbox">
+              <label class="one">
+                <input type="radio" name="theme" data-theme="one" checked />
+              </label>
+              <label class="two">
+                <input type="radio" name="theme" data-theme="two" />
+              </label>
+              <label class="three">
+                <input type="radio" name="theme" data-theme="three" />
+              </label>
+            </div>
+          </div>
+        </div>
+        <h1 class="display"></h1>
+        <div class="btns">
+          <button class="num same" data-num="7">7</button>
+          <button class="num same" data-num="8">8</button>
+          <button class="num same" data-num="9">9</button>
+          <button class="del" data-operation="del">del</button>
+          <button class="num same" data-num="4">4</button>
+          <button class="num same" data-num="5">5</button>
+          <button class="num same" data-num="6">6</button>
+          <button class="operation same" data-operation="+">+</button>
+          <button class="num same" data-num="1">1</button>
+          <button class="num same" data-num="2">2</button>
+          <button class="num same" data-num="3">3</button>
+          <button class="operation same" data-operation="-">-</button>
+          <button class="same dot" data-operation=".">.</button>
+          <button class="num same" data-num="0">0</button>
+          <button class="operation same" data-operation="/">/</button>
+          <button class="operation same" data-operation="*">x</button>
+          <button class="reset" data-operation="reset">reset</button>
+          <button class="equal" data-operation="equal">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
